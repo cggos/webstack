@@ -31,12 +31,12 @@ githubCorner: '<a href="https://github.com/cggos/webstack" class="github-corner"
 
 expandAll: false
 menu:
-  - name: 测试页面
+  - name: 控制面板
+    icon: fas fa-tools
+    config: ctrlPanel
+  - name: 网络调试 
     icon: far fa-star
-    config: testPage
-  - name: 常用工具
-    icon: far fa-star
-    config: hotTools
+    config: networkTools
   - name: 其他工具
     icon: fas fa-tools
     submenu:
@@ -47,26 +47,57 @@ menu:
         icon: fas fa-blog
         config: myBlog
 
-testPage:
-  - name: Child Page
-    url: /child
-    img: /images/logos/myblog.png
-    description: 子页面测试
+ctrlPanel:
+  - name: Op Router
+    url: http://192.168.2.1
+    img: 
+    description: Op Router (local)
+  - name: CG-NAS
+    url: https://192.168.2.200:5001/
+    img: 
+    description: CG-NAS (local)
+  - name: CG-NAS
+    url: https://cggos.i234.me:5001/
+    img: 
+    description: CG-NAS
+  - name: CG-Alist
+    url: http://192.168.2.200:5244
+    img: 
+    description: CG-Alist (local)
+
+networkTools:
+  - name: whoer
+    url: https://whoer.net/zh
+    img: 
+    description: IP和DNS检查
+  - name: IP.SB
+    url: https://ip.sb/
+    img: 
+    description: IP Address Lookup
+  - name: ip.cn
+    url: https://ip.cn/
+    img: 
+    description: IP 地址查询 | 地理位置 | 手机归属地  | DNS查询
+  - name: ip111
+    url: http://ip111.cn/
+    img: 
+    description: 全方位查询您的IP地址
+  - name: ip138
+    url: https://www.ip138.com/
+    img: 
+    description: iP地址归属地查询
+
 devTools:
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
   - name: Github
     url: https://github.com/
     img: /images/logos/github.png
     description: 面向开源及私有软件项目的托管平台。
 
 myBlog:
-  - name: HCLonely Blog
-    url: https://blog.hclonely.com/
+  - name: CGABC
+    url: https://cgabc.xyz
     img: /images/logos/myBlog.png
-    description: 一个懒人的博客。
+    description: CGABC
 
 about:
   url: /about/
@@ -76,14 +107,14 @@ about:
 aboutPage:
   website:
     head: 关于本站
-    html: '<blockquote><p>本站是hexo主题<a href="https://github.com/HCLonely/hexo-theme-webstack">hexo-theme-webstack</a>的demo站。</p></blockquote>'
+    html: '<blockquote><p>本站基于hexo主题<a href="https://github.com/HCLonely/hexo-theme-webstack">hexo-theme-webstack</a></p></blockquote>'
   webmaster:
     head: 关于站长
-    name: HCLonely
-    url: https://blog.hclonely.com/
+    name: Gavin Gao
+    url: https://cgabc.xyz
     img: /images/logos/myblog.png
-    description: 懒人一个
-    html: '<br /><blockquote><p>本站是<a href="https://github.com/HCLonely">HCLonely</a>基于<a href="https://github.com/WebStackPage/WebStackPage.github.io">WebStackPage</a>项目做的一款<a href="https://hexo.io/">Hexo</a>主题。</p></blockquote>'
+    description: CGABC
+    html: '<br /><blockquote><p>本站是<a href="https://github.com/cggos">Gavin Gao</a>基于<a href="https://github.com/HCLonely/hexo-theme-webstack">hexo-theme-webstack</a>主题搭建的。</p></blockquote>'
 
 since: 2022
 
