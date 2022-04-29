@@ -52,6 +52,10 @@ ctrlPanel:
     url: http://192.168.2.1
     img: 
     description: Op Router (local)
+  - name: ASUS Router (AP)
+    url: http://192.168.2.100
+    img: 
+    description: ASUS Router RT-AX56U V2 (local)
   - name: CG-NAS
     url: https://192.168.2.200:5001/
     img: 
@@ -64,6 +68,14 @@ ctrlPanel:
     url: http://192.168.2.200:5244
     img: 
     description: CG-Alist (local)
+  - name: Calibre-Web
+    url: http://192.168.2.200:8083
+    img: 
+    description: Calibre-Web (local)
+  - name: Plex Media Server
+    url: http://192.168.2.200:32400
+    img: 
+    description: Plex Media Server (local)
 
 networkTools:
   - name: whoer
