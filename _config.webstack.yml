@@ -61,7 +61,7 @@ ctrlPanel:
     img: 
     description: CG-NAS (local)
   - name: CG-NAS
-    url: https://cggos.i234.me:5001/
+    url: https://cgabc.i234.me:5001/
     img: 
     description: CG-NAS
   - name: CG-Alist
@@ -98,6 +98,14 @@ networkTools:
     url: https://www.ip138.com/
     img: 
     description: iP地址归属地查询
+  - name: ipstack
+    url: https://ipstack.com/
+    img: 
+    description: Locate and identify website visitors by IP address
+  - name: DNS服务器地址
+    url: https://dns.supfree.net/
+    img: 
+    description: DNS服务器地址
 
 devTools:
   - name: Github
