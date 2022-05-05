@@ -37,15 +37,18 @@ menu:
   - name: 网络调试 
     icon: far fa-star
     config: networkTools
+  - name: 网站建设 
+    icon: far fa-star
+    config: websiteTools
   - name: 其他工具
     icon: fas fa-tools
     submenu:
-      - name: 开发工具
-        icon: fas fa-tools
-        config: devTools
       - name: 我的博客
         icon: fas fa-blog
         config: myBlog
+      - name: 导航友链
+        icon: fas fa-tools
+        config: navLinks
 
 ctrlPanel:
   - name: Op Router
@@ -107,11 +110,21 @@ networkTools:
     img: 
     description: DNS服务器地址
 
-devTools:
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
+websiteTools:
+  - name: 站长之家 
+    url: https://www.chinaz.com/
+    img:
+    description: 站长资讯-我们致力于为中文网站提供动力 
+  - name: 阿里云控制台
+    url: https://home.console.aliyun.com/
+    img: 
+    description: 阿里云控制台
+
+navLinks:
+  - name: 大黄蜂
+    url: https://maopai8.com/
+    img:
+    description: 大黄蜂2.0导航网站
 
 myBlog:
   - name: CGABC
