@@ -1,10 +1,10 @@
-favicon: /favicon.ico
+favicon: /img/favicon_800x600.png # /favicon.ico
 banner: /images/webstack_banner_cn.png
 
 logo:
-  expanded: /images/logo@2x.png
-  collapsed: /images/logo-collapsed@2x.png
-  dark: /images/logo_dark@2x.png
+  expanded: /img/favicon_800x600_inv.png # /images/logo@2x.png
+  collapsed: /img/favicon_800x600_icon.png # /images/logo-collapsed@2x.png
+  dark: /img/favicon_800x600.png # /images/logo_dark@2x.png
 
 flag:
   - name: Chinese
@@ -129,7 +129,7 @@ navLinks:
 myBlog:
   - name: CGABC
     url: https://cgabc.xyz
-    img: /images/logos/myBlog.png
+    img: /img/favicon_800x600.png
     description: CGABC
 
 about:
