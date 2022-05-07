@@ -53,37 +53,37 @@ menu:
 ctrlPanel:
   - name: Op Router
     url: http://192.168.2.1
-    img: 
+    img: https://openwrt.org/_media/favicon.ico
     description: Op Router (local)
   - name: ASUS Router (AP)
     url: http://192.168.2.100
-    img: 
+    img: https://i.imgur.com/DLL6DwDt.png
     description: ASUS Router RT-AX56U V2 (local)
   - name: CG-NAS
     url: https://192.168.2.200:5001/
-    img: 
+    img: https://i.imgur.com/TlIcFVXt.png
     description: CG-NAS (local)
   - name: CG-NAS
     url: https://cgabc.i234.me:5001/
-    img: 
+    img: https://i.imgur.com/TlIcFVXt.png
     description: CG-NAS
   - name: CG-Alist
     url: http://192.168.2.200:5244
-    img: 
+    img: https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg
     description: CG-Alist (local)
   - name: Calibre-Web
     url: http://192.168.2.200:8083
-    img: 
+    img: https://calibre-ebook.com/favicon.png
     description: Calibre-Web (local)
   - name: Plex Media Server
     url: http://192.168.2.200:32400
-    img: 
+    img: https://app.plex.tv/auth/favicon.ico
     description: Plex Media Server (local)
 
 networkTools:
   - name: whoer
     url: https://whoer.net/
-    img: 
+    img: https://whoer.net/favicon.png
     description: IP和DNS检查
   - name: IP Address
     url: https://www.ipaddress.com/
@@ -91,15 +91,15 @@ networkTools:
     description: The Best IP Address, Email and Networking Tools
   - name: IP.SB
     url: https://ip.sb/
-    img: 
+    img: https://cdn.rsb.net/ip.sb/apple-touch-icon.png
     description: IP Address Lookup
   - name: ip.cn
     url: https://ip.cn/
-    img: 
+    img: https://www.ip.cn/img/favicon.ico
     description: IP 地址查询 | 地理位置 | 手机归属地  | DNS查询
   - name: ip111
     url: http://ip111.cn/
-    img: 
+    img: http://ip111.cn/favicon.ico
     description: 全方位查询您的IP地址
   - name: ipstack
     url: https://ipstack.com/
@@ -107,23 +107,23 @@ networkTools:
     description: Locate and identify website visitors by IP address
   - name: DNS服务器地址
     url: https://dns.supfree.net/
-    img: 
+    img: https://www.supfree.net/favicon.ico
     description: DNS服务器地址
 
 websiteTools:
   - name: 站长之家 
     url: https://www.chinaz.com/
-    img:
+    img: https://i.imgur.com/MjwtEX1t.png
     description: 站长资讯-我们致力于为中文网站提供动力 
   - name: 阿里云控制台
     url: https://home.console.aliyun.com/
-    img: 
+    img: https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico
     description: 阿里云控制台
 
 navLinks:
   - name: 大黄蜂
     url: https://maopai8.com/
-    img:
+    img: https://maopai8.com/assets/images/favicon.png
     description: 大黄蜂2.0导航网站
 
 myBlog:
