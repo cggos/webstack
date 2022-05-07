@@ -82,9 +82,13 @@ ctrlPanel:
 
 networkTools:
   - name: whoer
-    url: https://whoer.net/zh
+    url: https://whoer.net/
     img: 
     description: IP和DNS检查
+  - name: IP Address
+    url: https://www.ipaddress.com/
+    img: https://s.ipaddress.com/icon/favicon-192.png
+    description: The Best IP Address, Email and Networking Tools
   - name: IP.SB
     url: https://ip.sb/
     img: 
@@ -97,13 +101,9 @@ networkTools:
     url: http://ip111.cn/
     img: 
     description: 全方位查询您的IP地址
-  - name: ip138
-    url: https://www.ip138.com/
-    img: 
-    description: iP地址归属地查询
   - name: ipstack
     url: https://ipstack.com/
-    img: 
+    img: https://ipstack.com/ipstack_images/ipstack_ico.ico
     description: Locate and identify website visitors by IP address
   - name: DNS服务器地址
     url: https://dns.supfree.net/
