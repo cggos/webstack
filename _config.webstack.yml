@@ -2,9 +2,9 @@ favicon: https://cgabc.xyz/img/CGABC/icon/favicon.ico # /favicon.ico
 banner: /images/webstack_banner_cn.png
 
 logo:
-  expanded: /img/favicon_800x600_inv.png # /images/logo@2x.png
-  collapsed: https://cgabc.xyz/img/CGABC/icon/favicon.ico 
-  dark: https://cgabc.xyz/img/favicon_800x600.png # /images/logo_dark@2x.png
+  expanded: https://cgabc.xyz/img/CGABC/favicon_800x600_inv.png # /images/logo@2x.png
+  collapsed: https://cgabc.xyz/favicon.ico 
+  dark: https://cgabc.xyz/img/CGABC/favicon_800x600.png # /images/logo_dark@2x.png
 
 flag:
   - name: Chinese
@@ -49,7 +49,10 @@ menu:
   - name: 多媒体
     icon: far fa-star
     submenu:
-      - name: 图床 (Image Hosting)
+      - name: 设计
+        icon: far fa-star
+        config: designTools
+      - name: 图床 (Img Hosting)
         icon: far fa-star
         config: imageHosting
       - name: 流媒体
@@ -169,15 +172,20 @@ cloudStorage:
     img: https://nextcloud.com/wp-content/uploads/2022/03/favicon.png
     description: The self-hosted productivity platform that keeps you in control
 
-streamMedia:
-  - name: Netflix
-    url: https://www.netflix.com/
-    img: https://assets.nflxext.com/ffe/siteui/common/icons/nficon2016.ico
+
+designTools:
+  - name: Canva
+    url: https://www.canva.com/
+    img: https://www.canva.com/favicon.ico
     description: 
-  - name: 搜奈飞
-    url: https://www.sounf.com/
-    img: https://www.sounf.com/favicon.ico
-    description: Netflix全球资源搜索引擎
+  - name: Canva (cn)
+    url: https://www.canva.cn/
+    img: https://www.canva.cn/favicon.ico
+    description: 
+  - name: LOGO设计神器
+    url: https://www.logosc.cn/
+    img: https://www.logosc.cn/favicon-logosc.ico?v=4
+    description: 
 
 imageHosting:
   - name: imgur
@@ -201,10 +209,20 @@ imageHosting:
     img: https://img.alicdn.com/imgextra/i2/O1CN01ZyAlrn1MwaMhqz36G_!!6000000001499-73-tps-64-64.ico
     description: 阿里巴巴矢量图标库
 
+streamMedia:
+  - name: Netflix
+    url: https://www.netflix.com/
+    img: https://assets.nflxext.com/ffe/siteui/common/icons/nficon2016.ico
+    description: 
+  - name: 搜奈飞
+    url: https://www.sounf.com/
+    img: https://www.sounf.com/favicon.ico
+    description: Netflix全球资源搜索引擎
+
 navLinks:
   - name: CGABC
     url: https://cgabc.xyz
-    img: /img/favicon_800x600.png
+    img: https://cgabc.xyz/favicon.ico
     description: 
   - name: 邓邓的任意门
     url: https://dh.xhhdd.cc/
