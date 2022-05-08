@@ -241,14 +241,14 @@ about:
 aboutPage:
   website:
     head: 关于本站
-    html: '<blockquote><p>本站基于hexo主题<a href="https://github.com/HCLonely/hexo-theme-webstack">hexo-theme-webstack</a></p></blockquote>'
+    html: '<blockquote><p>本站基于hexo主题 <a href="https://github.com/HCLonely/hexo-theme-webstack">hexo-theme-webstack</a></p></blockquote>'
   webmaster:
     head: 关于站长
     name: Gavin Gao
     url: https://cgabc.xyz
-    img: /images/logos/myblog.png
+    img: https://cgabc.xyz/favicon.ico
     description: CGABC
-    html: '<br /><blockquote><p>本站是<a href="https://github.com/cggos">Gavin Gao</a>基于<a href="https://github.com/HCLonely/hexo-theme-webstack">hexo-theme-webstack</a>主题搭建的。</p></blockquote>'
+    html: '<br /><blockquote><p>本站是 <a href="">Gavin Gao</a> 基于 <a href="https://github.com/HCLonely/hexo-theme-webstack">hexo-theme-webstack</a> 主题搭建的。</p></blockquote>'
 
 since: 2022
 
