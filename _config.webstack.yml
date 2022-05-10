@@ -16,13 +16,16 @@ search: true
 
 userDefinedSearchData:
   custom: true
-  thisSearch: https://www.baidu.com/s?wd=
-  thisSearchIcon: url(https://www.baidu.com/favicon.ico)
+  thisSearch: https://www.bing.com/search?q=
+  thisSearchIcon: url(https://www.bing.com/favicon.ico)
   hotStatus: true
   data:
     - name: 谷歌
       img: url(https://www.google.com/favicon.ico)
       url: https://www.google.com/search?q=
+    - name: Bing
+      img: url(https://www.bing.com/favicon.ico)
+      url: https://www.bing.com/search?q=
     - name: 百度
       img: url(https://www.baidu.com/favicon.ico)
       url: https://www.baidu.com/s?wd=
@@ -49,6 +52,9 @@ menu:
   - name: 多媒体
     icon: far fa-star
     submenu:
+      - name: 在线PS
+        icon: far fa-star
+        config: onlinePS
       - name: 设计
         icon: far fa-star
         config: designTools
@@ -58,7 +64,7 @@ menu:
       - name: 流媒体
         icon: far fa-star
         config: streamMedia
-  - name: 友链
+  - name: 其他导航
     icon: far fa-star
     config: navLinks
 
@@ -172,6 +178,15 @@ cloudStorage:
     img: https://nextcloud.com/wp-content/uploads/2022/03/favicon.png
     description: The self-hosted productivity platform that keeps you in control
 
+onlinePS:
+  - name: Photopea
+    url: https://www.photopea.com/
+    img: https://www.photopea.com/promo/icon512.png
+    description: Online Photo Editor
+  - name: 压缩图
+    url: https://www.yasuotu.com/
+    img: https://www.yasuotu.com/favicon.ico
+    description: 在线图片压缩工具
 
 designTools:
   - name: Canva
@@ -182,14 +197,14 @@ designTools:
     url: https://www.canva.cn/
     img: https://www.canva.cn/favicon.ico
     description: 
+  - name: BACKIMG
+    url: http://backimg.cn/
+    img: http://backimg.cn/image/icon/logo.png
+    description: 媒体主图快速生成
   - name: LOGO设计神器
     url: https://www.logosc.cn/
     img: https://www.logosc.cn/favicon-logosc.ico?v=4
     description: (Logo)
-  - name: Favicon Generator
-    url: https://realfavicongenerator.net/
-    img: https://realfavicongenerator.net/the_favicon/favicon.ico
-    description: (Favicon)
   - name: iconfont
     url: https://www.iconfont.cn/
     img: https://img.alicdn.com/imgextra/i2/O1CN01ZyAlrn1MwaMhqz36G_!!6000000001499-73-tps-64-64.ico
@@ -206,14 +221,30 @@ designTools:
     url: https://simpleicons.org/
     img: https://simpleicons.org/images/favicon.ico
     description: (Icon) Free SVG icons for popular brands
-  - name: Gravatar
-    url: https://gravatar.com/
-    img: https://gravatar.com/favicon.ico
-    description: (Avatar) Globally Recognized Avatars
+  - name: SVG Repo
+    url: https://www.svgrepo.com/
+    img: https://www.svgrepo.com/favicon.ico
+    description: Free SVG Vectors and Icons
+  - name: flaticon
+    url: https://www.flaticon.com/
+    img: https://www.flaticon.com/favicon.ico
+    description: Vector Icons and Stickers
+  - name: Favicon Generator
+    url: https://realfavicongenerator.net/
+    img: https://realfavicongenerator.net/the_favicon/favicon.ico
+    description: (Favicon)
   - name: Shields.io
     url: https://shields.io/
     img: 
     description: (Badge) Quality metadata badges for open source projects
+  - name: Gravatar
+    url: https://gravatar.com/
+    img: https://gravatar.com/favicon.ico
+    description: (Avatar) Globally Recognized Avatars
+  - name: Avatar Maker
+    url: https://avatarmaker.com/
+    img: https://avatarmaker.com/favicon.ico
+    description: (Avatar) Create your own free avatar online and share it with your friends
 
 imageHosting:
   - name: imgur
@@ -244,10 +275,6 @@ streamMedia:
     description: Netflix全球资源搜索引擎
 
 navLinks:
-  - name: CGABC
-    url: https://cgabc.xyz
-    img: https://cgabc.xyz/favicon.ico
-    description: 
   - name: 邓邓的任意门
     url: https://dh.xhhdd.cc/
     img: https://dh.xhhdd.cc/favicon.ico
