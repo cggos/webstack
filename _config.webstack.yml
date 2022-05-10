@@ -46,6 +46,9 @@ menu:
   - name: OA
     icon: far fa-star
     submenu:
+      - name: OA在线工具
+        icon: far fa-star
+        config: onlineToolsOA
       - name: 网盘
         icon: far fa-star
         config: cloudStorage
@@ -146,6 +149,12 @@ websiteTools:
   - name: 阿里云控制台
     url: https://home.console.aliyun.com/
     img: https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico
+    description: 
+
+onlineToolsOA:
+  - name: 草料二维码生成器
+    url: https://cli.im/
+    img: https://static.clewm.net/static/images/favicon.ico
     description: 
 
 cloudStorage:
