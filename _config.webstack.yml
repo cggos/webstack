@@ -46,12 +46,15 @@ menu:
   - name: OA
     icon: far fa-star
     submenu:
-      - name: OA在线工具
+      - name: 在线文档
         icon: far fa-star
-        config: onlineToolsOA
+        config: onlineDocs
       - name: 网盘
         icon: far fa-star
         config: cloudStorage
+      - name: Others
+        icon: far fa-star
+        config: otherOA
   - name: 多媒体
     icon: far fa-star
     submenu:
@@ -151,10 +154,14 @@ websiteTools:
     img: https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico
     description: 
 
-onlineToolsOA:
-  - name: 草料二维码生成器
-    url: https://cli.im/
-    img: https://static.clewm.net/static/images/favicon.ico
+onlineDocs:
+  - name: 金山文档
+    url: https://www.kdocs.cn/
+    img: https://www.kdocs.cn/favicon.ico
+    description: 
+  - name: 石墨文档
+    url: https://shimo.im/
+    img: https://shimo.im/favicon.ico
     description: 
 
 cloudStorage:
@@ -186,6 +193,12 @@ cloudStorage:
     url: https://nextcloud.com/
     img: https://nextcloud.com/wp-content/uploads/2022/03/favicon.png
     description: The self-hosted productivity platform that keeps you in control
+
+otherOA:
+  - name: 草料二维码生成器
+    url: https://cli.im/
+    img: https://static.clewm.net/static/images/favicon.ico
+    description: 
 
 onlinePS:
   - name: Photopea
