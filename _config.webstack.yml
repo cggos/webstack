@@ -37,12 +37,24 @@ menu:
   - name: 控制面板
     icon: fas fa-tools
     config: ctrlPanel
-  - name: 网络调试 
-    icon: fas fa-tools
-    config: networkTools
   - name: 网站建设 
     icon: fas fa-tools
     config: websiteTools
+  - name: 网络
+    icon: far fa-star
+    submenu:
+      - name: IPDNS
+        icon: far fa-star
+        config: IPDNS
+      - name: GFW
+        icon: far fa-star
+        config: bypassGFW
+      - name: Router
+        icon: far fa-star
+        config: Router
+      - name: NAS
+        icon: far fa-star
+        config: NAS
   - name: OA
     icon: far fa-star
     submenu:
@@ -110,7 +122,7 @@ ctrlPanel:
     img: https://app.plex.tv/auth/favicon.ico
     description: (local)
 
-networkTools:
+IPDNS:
   - name: whoer
     url: https://whoer.net/
     img: https://whoer.net/favicon.png
@@ -138,6 +150,28 @@ networkTools:
   - name: DNS服务器地址
     url: https://dns.supfree.net/
     img: https://www.supfree.net/favicon.ico
+    description: 
+
+bypassGFW:
+  - name: GFWList
+    url: https://github.com/gfwlist/gfwlist
+    img: 
+    description: 
+  - name: dl.trojan-cdn.com
+    url: https://dl.trojan-cdn.com/
+    img: 
+    description: 
+
+Router:
+  - name: OpenWrt Download Server
+    url: https://op.supes.top/
+    img: https://openwrt.org/_media/favicon.ico
+    description: 
+
+NAS:
+  - name: Synology Archive Download
+    url: https://archive.synology.com/
+    img: https://archive.synology.com/favicon@2x.png
     description: 
 
 websiteTools:
