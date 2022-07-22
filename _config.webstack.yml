@@ -49,12 +49,9 @@ menu:
       - name: GFW
         icon: far fa-star
         config: bypassGFW
-      - name: Router
-        icon: far fa-star
-        config: Router
-      - name: NAS
-        icon: far fa-star
-        config: NAS
+  - name: FirmwareOS
+    icon: far fa-star
+    config: osFW 
   - name: OA
     icon: far fa-star
     submenu:
@@ -162,13 +159,15 @@ bypassGFW:
     img: 
     description: 
 
-Router:
+osFW:
+  - name: Ubuntu Releases
+    url: https://mirrors.aliyun.com/ubuntu-releases/
+    img: https://www.aliyun.com/favicon.ico
+    description: 
   - name: OpenWrt Download Server
     url: https://op.supes.top/
     img: https://openwrt.org/_media/favicon.ico
     description: 
-
-NAS:
   - name: Synology Archive Download
     url: https://archive.synology.com/
     img: https://archive.synology.com/favicon@2x.png
@@ -239,6 +238,10 @@ onlinePS:
     url: https://www.photopea.com/
     img: https://www.photopea.com/promo/icon512.png
     description: Online Photo Editor
+  - name: TinyPNG
+    url: https://tinypng.com/
+    img: https://tinypng.com/images/favicon.ico
+    description: Smart WebP, PNG and JPEG compression
   - name: 压缩图
     url: https://www.yasuotu.com/
     img: https://www.yasuotu.com/favicon.ico
