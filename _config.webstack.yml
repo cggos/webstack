@@ -103,7 +103,7 @@ ctrlPanel:
     img: https://i.imgur.com/TlIcFVXt.png
     description: (local)
   - name: CG-NAS
-    url: https://cgabc.i234.me:5001/
+    url: https://nas.cgabc.xyz:5001/
     img: https://i.imgur.com/TlIcFVXt.png
     description: 
   - name: CG-Alist
