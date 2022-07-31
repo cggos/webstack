@@ -61,9 +61,9 @@ menu:
       - name: 网盘
         icon: far fa-star
         config: cloudStorage
-      - name: Others
+      - name: QR
         icon: far fa-star
-        config: otherOA
+        config: qrTools
   - name: 多媒体
     icon: far fa-star
     submenu:
@@ -73,7 +73,7 @@ menu:
       - name: 设计
         icon: far fa-star
         config: designTools
-      - name: 图床 (Img Hosting)
+      - name: 图床ImgHosting
         icon: far fa-star
         config: imageHosting
       - name: 流媒体
@@ -227,7 +227,7 @@ cloudStorage:
     img: https://nextcloud.com/wp-content/uploads/2022/03/favicon.png
     description: The self-hosted productivity platform that keeps you in control
 
-otherOA:
+qrTools:
   - name: 草料二维码生成器
     url: https://cli.im/
     img: https://static.clewm.net/static/images/favicon.ico
@@ -242,6 +242,10 @@ onlinePS:
     url: https://tinypng.com/
     img: https://tinypng.com/images/favicon.ico
     description: Smart WebP, PNG and JPEG compression
+  - name: Caesium Image Compressor
+    url: https://saerasoft.com/caesium/
+    img: https://saerasoft.com/images/logo.png
+    description: Compress your pictures up to 90% without visible quality loss
   - name: 压缩图
     url: https://www.yasuotu.com/
     img: https://www.yasuotu.com/favicon.ico
@@ -306,10 +310,18 @@ designTools:
     description: (Avatar) Create your own free avatar online and share it with your friends
 
 imageHosting:
+  - name: SM.MS
+    url: https://sm.ms/
+    img: https://sm.ms/favicon-32x32.png
+    description: Simple Free Image Hosting
   - name: imgur
     url: https://imgur.com/
     img: https://s.imgur.com/images/favicon-32x32.png
     description: Find, rate and share the best memes and images
+  - name: GIPHY
+    url: https://giphy.com/
+    img: https://giphy.com/static/img/favicon.png
+    description: (Gif) Be Animated
   - name: Unsplash
     url: https://unsplash.com/
     img: https://unsplash.com/favicon-32x32.png
@@ -318,10 +330,6 @@ imageHosting:
     url: https://www.pinterest.com/
     img: https://s.pinimg.com/webapp/favicon-54a5b2af.png
     description: 
-  - name: GIPHY
-    url: https://giphy.com/
-    img: https://giphy.com/static/img/favicon.png
-    description: (Gif) Be Animated
 
 streamMedia:
   - name: Netflix
