@@ -64,6 +64,9 @@ menu:
       - name: QR
         icon: far fa-star
         config: qrTools
+      - name: FileConvert
+        icon: far fa-star
+        config: fileCvt
   - name: 多媒体
     icon: far fa-star
     submenu:
@@ -238,6 +241,28 @@ onlinePS:
     url: https://www.photopea.com/
     img: https://www.photopea.com/promo/icon512.png
     description: Online Photo Editor
+
+fileCvt:
+  - name: File Converter
+    url: https://www.freeconvert.com/
+    img: https://www.freeconvert.com/favicon.ico
+    description: 
+  - name: CloudConvert
+    url: https://cloudconvert.com/
+    img: https://cloudconvert.com/images/logo_flat_32.png
+    description: an online file converter
+  - name: iLoveIMG
+    url: https://www.iloveimg.com/
+    img: https://www.iloveimg.com/favicon.ico
+    description: The fastest free web app for easy image modification
+  - name: HEIC to PNG
+    url: https://heic2png.com/
+    img: https://heic2png.com/favicon.ico
+    description: convert HEIC to PNG
+  - name: Compress PNG
+    url: https://compresspng.com/
+    img: https://compresspng.com/images/compresspng/favicon.png
+    description: Compress PNG Images Online
   - name: TinyPNG
     url: https://tinypng.com/
     img: https://tinypng.com/images/favicon.ico
@@ -246,10 +271,22 @@ onlinePS:
     url: https://saerasoft.com/caesium/
     img: https://saerasoft.com/images/logo.png
     description: Compress your pictures up to 90% without visible quality loss
-  - name: 压缩图
+  - name: 压缩图 (收费)
     url: https://www.yasuotu.com/
     img: https://www.yasuotu.com/favicon.ico
     description: 在线图片压缩工具
+  - name: Online PDF-Converter
+    url: https://online2pdf.com/
+    img: https://online2pdf.com/favicon.ico
+    description: 
+  - name: PDF to Image
+    url: https://pdftoimage.com/
+    img: https://pdftoimage.com/images/pdftoimage/favicon.png
+    description: Convert PDF to JPG Online
+  - name: PNG to PDF
+    url: https://png2pdf.com/
+    img: https://png2pdf.com/images/png2pdf/favicon.png
+    description: Convert PNG Images to PDF Documents
 
 designTools:
   - name: Canva
