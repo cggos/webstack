@@ -70,7 +70,7 @@ menu:
   - name: 多媒体
     icon: far fa-star
     submenu:
-      - name: 在线PS
+      - name: OnlinePS
         icon: far fa-star
         config: onlinePS
       - name: 设计
@@ -109,7 +109,7 @@ ctrlPanel:
     url: https://nas.cgabc.xyz:5001/
     img: https://i.imgur.com/TlIcFVXt.png
     description: 
-  - name: CG-Alist
+  - name: CG-Alist (FTP)
     url: http://192.168.2.200:5244
     img: https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg
     description: (local)
@@ -262,7 +262,7 @@ fileCvt:
   - name: Compress PNG
     url: https://compresspng.com/
     img: https://compresspng.com/images/compresspng/favicon.png
-    description: Compress PNG Images Online
+    description: (白天可访问，但晚上经常不能)
   - name: TinyPNG
     url: https://tinypng.com/
     img: https://tinypng.com/images/favicon.ico
@@ -298,9 +298,9 @@ designTools:
     img: https://www.canva.cn/favicon.ico
     description: 
   - name: BACKIMG
-    url: http://backimg.cn/
-    img: http://backimg.cn/image/icon/logo.png
-    description: 媒体主图快速生成
+    url: http://toolapp.org/BackImg/index.html
+    img: 
+    description: 媒体主图快速生成 (http://backimg.cn/)
   - name: LOGO设计神器
     url: https://www.logosc.cn/
     img: https://www.logosc.cn/favicon-logosc.ico?v=4
