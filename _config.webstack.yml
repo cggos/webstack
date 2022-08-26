@@ -76,6 +76,9 @@ menu:
       - name: 设计
         icon: far fa-star
         config: designTools
+      - name: Icons
+        icon: far fa-star
+        config: iconLib
       - name: 图床ImgHosting
         icon: far fa-star
         config: imageHosting
@@ -109,6 +112,18 @@ ctrlPanel:
     url: https://nas.cgabc.xyz:5001/
     img: https://i.imgur.com/TlIcFVXt.png
     description: 
+  - name: 阿里云控制台
+    url: https://home.console.aliyun.com/
+    img: https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico
+    description: 
+  - name: 虚拟主机管理平台
+    url: https://cp.aliyun.com/
+    img: https://cp.aliyun.com/favicon.ico
+    description: (阿里云)
+  - name: KiwiVM Main Panel
+    url: https://kiwivm.64clouds.com/main.php
+    img: 
+    description: (搬瓦工VPS)
   - name: CG-Alist (FTP)
     url: http://192.168.2.200:5244
     img: https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg
@@ -185,10 +200,6 @@ websiteTools:
     url: https://www.chinaz.com/
     img: https://www.chinaz.com/favicon.ico
     description: 
-  - name: 阿里云控制台
-    url: https://home.console.aliyun.com/
-    img: https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico
-    description: 
 
 onlineDocs:
   - name: 金山文档
@@ -205,17 +216,13 @@ cloudStorage:
     url: https://pan.baidu.com/
     img: https://nd-static.bdstatic.com/m-static/infocenter/static/images/favicon.ico
     description: 
-  - name: 腾讯微云
-    url: https://www.weiyun.com/
-    img: https://img.weiyun.com/vipstyle/nr/box/img/favicon.ico
-    description: 
   - name: 阿里云盘
     url: https://www.aliyundrive.com/
     img: https://gw.alicdn.com/imgextra/i3/O1CN01aj9rdD1GS0E8io11t_!!6000000000620-73-tps-16-16.ico
     description: 
-  - name: 115网盘
-    url: https://115.com/
-    img: https://115.com/favicon.ico
+  - name: 腾讯微云
+    url: https://www.weiyun.com/
+    img: https://img.weiyun.com/vipstyle/nr/box/img/favicon.ico
     description: 
   - name: 坚果云
     url: https://www.jianguoyun.com/
@@ -229,6 +236,18 @@ cloudStorage:
     url: https://nextcloud.com/
     img: https://nextcloud.com/wp-content/uploads/2022/03/favicon.png
     description: The self-hosted productivity platform that keeps you in control
+  - name: Google Drive Direct Link Generator
+    url: https://sites.google.com/site/gdocs2direct/
+    img: https://ssl.gstatic.com/atari/images/public/favicon.ico
+    description: 
+  - name: Google Drive Direct Download Link Generator
+    url: https://www.gdirect.link/
+    img: https://www.gdirect.link/favicon.ico
+    description: 
+  - name: 115网盘
+    url: https://115.com/
+    img: https://115.com/favicon.ico
+    description: 
 
 qrTools:
   - name: 草料二维码生成器
@@ -305,6 +324,24 @@ designTools:
     url: https://www.logosc.cn/
     img: https://www.logosc.cn/favicon-logosc.ico?v=4
     description: (Logo)
+  - name: Shields.io
+    url: https://shields.io/
+    img: 
+    description: (Badge) Quality metadata badges for open source projects
+  - name: Favicon Generator
+    url: https://realfavicongenerator.net/
+    img: https://realfavicongenerator.net/the_favicon/favicon.ico
+    description: (Favicon)
+  - name: Gravatar
+    url: https://gravatar.com/
+    img: https://gravatar.com/favicon.ico
+    description: (Avatar) Globally Recognized Avatars
+  - name: Avatar Maker
+    url: https://avatarmaker.com/
+    img: https://avatarmaker.com/favicon.ico
+    description: (Avatar) Create your own free avatar online and share it with your friends
+
+iconLib:
   - name: iconfont
     url: https://www.iconfont.cn/
     img: https://img.alicdn.com/imgextra/i2/O1CN01ZyAlrn1MwaMhqz36G_!!6000000001499-73-tps-64-64.ico
@@ -312,6 +349,10 @@ designTools:
   - name: Font Awesome
     url: https://fontawesome.com/
     img: https://fontawesome.com/favicon.ico
+    description: (Icon)
+  - name: Fontawesome Cheatsheet
+    url: https://www.fontawesomecheatsheet.com/
+    img: https://www.fontawesomecheatsheet.com/assets/ico/favicon.ico
     description: (Icon)
   - name: Academicons
     url: https://jpswalsh.github.io/academicons/
@@ -321,30 +362,14 @@ designTools:
     url: https://simpleicons.org/
     img: https://simpleicons.org/images/favicon.ico
     description: (Icon) Free SVG icons for popular brands
-  - name: SVG Repo
-    url: https://www.svgrepo.com/
-    img: https://www.svgrepo.com/favicon.ico
-    description: Free SVG Vectors and Icons
   - name: flaticon
     url: https://www.flaticon.com/
     img: https://www.flaticon.com/favicon.ico
     description: Vector Icons and Stickers
-  - name: Favicon Generator
-    url: https://realfavicongenerator.net/
-    img: https://realfavicongenerator.net/the_favicon/favicon.ico
-    description: (Favicon)
-  - name: Shields.io
-    url: https://shields.io/
-    img: 
-    description: (Badge) Quality metadata badges for open source projects
-  - name: Gravatar
-    url: https://gravatar.com/
-    img: https://gravatar.com/favicon.ico
-    description: (Avatar) Globally Recognized Avatars
-  - name: Avatar Maker
-    url: https://avatarmaker.com/
-    img: https://avatarmaker.com/favicon.ico
-    description: (Avatar) Create your own free avatar online and share it with your friends
+  - name: SVG Repo
+    url: https://www.svgrepo.com/
+    img: https://www.svgrepo.com/favicon.ico
+    description: Free SVG Vectors and Icons
 
 imageHosting:
   - name: SM.MS
@@ -386,6 +411,10 @@ navLinks:
   - name: 大黄蜂
     url: https://maopai8.com/
     img: https://maopai8.com/assets/images/favicon.png
+    description: 
+  - name: 学生必备工具导航
+    url: https://www.stulink.cn/
+    img: https://www.stulink.cn/favicon.ico
     description: 
 
 about:
