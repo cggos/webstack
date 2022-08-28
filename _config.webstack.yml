@@ -180,8 +180,8 @@ bypassGFW:
 osFW:
   - name: Ubuntu Releases
     url: https://mirrors.aliyun.com/ubuntu-releases/
-    img: https://www.aliyun.com/favicon.ico
-    description: 
+    img: https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png
+    description: (阿里云)
   - name: OpenWrt Download Server
     url: https://op.supes.top/
     img: https://openwrt.org/_media/favicon.ico
@@ -199,6 +199,10 @@ websiteTools:
   - name: 站长之家 
     url: https://www.chinaz.com/
     img: https://www.chinaz.com/favicon.ico
+    description: 
+  - name: Google Analytics
+    url: https://analytics.google.com/
+    img: https://ssl.gstatic.com/analytics/analytics-frontend.indexpage_20220824.15_p0/index/static/analytics_standard_icon.png
     description: 
 
 onlineDocs:
