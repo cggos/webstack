@@ -232,6 +232,14 @@ cloudStorage:
     url: https://www.jianguoyun.com/
     img: https://www.jianguoyun.com/favicon.ico
     description: 
+  - name: Google Drive
+    url: https://drive.google.com/
+    img: https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png
+    description: 
+  - name: OneDrive
+    url: https://onedrive.live.com/
+    img: https://p.sfx.ms/images/favicon.ico
+    description: 
   - name: Dropbox
     url: https://www.dropbox.com/
     img: https://cfl.dropboxstatic.com/static/images/favicon-vfl8lUR9B.ico
@@ -239,7 +247,7 @@ cloudStorage:
   - name: Nextcloud
     url: https://nextcloud.com/
     img: https://nextcloud.com/wp-content/uploads/2022/03/favicon.png
-    description: The self-hosted productivity platform that keeps you in control
+    description: 
   - name: Google Drive Direct Link Generator
     url: https://sites.google.com/site/gdocs2direct/
     img: https://ssl.gstatic.com/atari/images/public/favicon.ico
