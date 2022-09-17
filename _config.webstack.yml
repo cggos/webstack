@@ -378,6 +378,10 @@ iconLib:
     url: https://www.flaticon.com/
     img: https://www.flaticon.com/favicon.ico
     description: Vector Icons and Stickers
+  - name: icons8
+    url: https://icons8.com/
+    img: https://maxst.icons8.com/vue-static/landings/primary-landings/favs/icons8_fav_32%C3%9732.png
+    description: Free Icons, Clipart Illustrations, Photos, and Music
   - name: SVG Repo
     url: https://www.svgrepo.com/
     img: https://www.svgrepo.com/favicon.ico
