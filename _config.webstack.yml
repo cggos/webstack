@@ -154,10 +154,18 @@ IPDNS:
     url: https://ip.cn/
     img: https://www.ip.cn/img/favicon.ico
     description: IP 地址查询 | 地理位置 | 手机归属地  | DNS查询
+  - name: ip138
+    url: https://www.ip138.com/
+    img: https://www.ip138.com//favicon.ico
+    description: iP地址归属地查询
   - name: ip111
     url: http://ip111.cn/
     img: http://ip111.cn/favicon.ico
     description: 全方位查询您的IP地址
+  - name: ifconfig.me
+    url: https://ifconfig.me/
+    img: 
+    description: What Is My IP Address?
   - name: ipstack
     url: https://ipstack.com/
     img: https://ipstack.com/ipstack_images/ipstack_ico.ico
@@ -166,6 +174,14 @@ IPDNS:
     url: https://dns.supfree.net/
     img: https://www.supfree.net/favicon.ico
     description: 
+  - name: speedtest.net
+    url: https://www.speedtest.net/
+    img: https://www.speedtest.net/favicon.ico
+    description:
+  - name: speedtest.cn
+    url: https://www.speedtest.cn/
+    img: https://www.speedtest.cn/favicon.ico
+    description:
 
 bypassGFW:
   - name: GFWList
