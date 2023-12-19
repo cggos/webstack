@@ -194,10 +194,14 @@ bypassGFW:
     description: 
 
 osFW:
-  - name: Ubuntu Releases
-    url: https://mirrors.aliyun.com/ubuntu-releases/
+  - name: 阿里云镜像站
+    url: https://mirrors.aliyun.com/
     img: https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png
-    description: (阿里云)
+    description:
+  - name: 清华大学开源软件镜像站
+    url: https://mirrors.tuna.tsinghua.edu.cn/
+    img: https://mirrors.tuna.tsinghua.edu.cn//static/img/favicon.png
+    description: 
   - name: OpenWrt Download Server
     url: https://op.supes.top/
     img: https://openwrt.org/_media/favicon.ico
