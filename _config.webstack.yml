@@ -372,6 +372,10 @@ designTools:
     url: https://avatarmaker.com/
     img: https://avatarmaker.com/favicon.ico
     description: (Avatar) Create your own free avatar online and share it with your friends
+  - name: Bitmoji
+    url: https://www.bitmoji.com/
+    img: https://www.bitmoji.com/favicon/ef3022fd.favicon-32.cache.png
+    description: Create your Bitmoji and be yourself wherever you go
 
 iconLib:
   - name: iconfont
