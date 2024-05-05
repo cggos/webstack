@@ -49,6 +49,9 @@ menu:
       - name: GFW
         icon: far fa-star
         config: bypassGFW
+      - name: GitHub
+        icon: far fa-star
+        config: GitHub
   - name: FirmwareOS
     icon: far fa-star
     config: osFW 
@@ -170,6 +173,10 @@ IPDNS:
     url: https://ipstack.com/
     img: https://ipstack.com/ipstack_images/ipstack_ico.ico
     description: Locate and identify website visitors by IP address
+  - name: IPCheck.ing
+    url: https://ipcheck.ing/
+    img: https://ipcheck.ing/logo.svg
+    description: Check My IP Address and Geolocation
   - name: DNS服务器地址
     url: https://dns.supfree.net/
     img: https://www.supfree.net/favicon.ico
@@ -186,11 +193,33 @@ IPDNS:
 bypassGFW:
   - name: GFWList
     url: https://github.com/gfwlist/gfwlist
-    img: 
+    img: https://avatars.githubusercontent.com/u/11460227?s=200&v=4 
     description: 
   - name: dl.trojan-cdn.com
     url: https://dl.trojan-cdn.com/
     img: 
+    description: 
+  - name: SwitchHosts
+    url: https://switchhosts.vercel.app/
+    img: https://switchhosts.vercel.app/favicon.ico
+    description: an App for hosts management & switching
+
+GitHub:
+  - name: GitHub Proxy
+    url: https://ghproxy.com/
+    img: 
+    description: 
+  - name: GitZip
+    url: https://kinolien.github.io/gitzip/
+    img: https://kinolien.github.io/gitzip/images/gitzip.png
+    description: 
+  - name: Download Directory
+    url: https://download-directory.github.io/
+    img: 
+    description: 
+  - name: GitHub Star History
+    url: https://star-history.com/
+    img: https://star-history.com/assets/favicon.ico
     description: 
 
 osFW:
