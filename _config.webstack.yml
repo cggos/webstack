@@ -194,10 +194,14 @@ bypassGFW:
     description: 
 
 osFW:
-  - name: Ubuntu Releases
-    url: https://mirrors.aliyun.com/ubuntu-releases/
+  - name: 阿里云镜像站
+    url: https://mirrors.aliyun.com/
     img: https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png
-    description: (阿里云)
+    description:
+  - name: 清华大学开源软件镜像站
+    url: https://mirrors.tuna.tsinghua.edu.cn/
+    img: https://mirrors.tuna.tsinghua.edu.cn//static/img/favicon.png
+    description: 
   - name: OpenWrt Download Server
     url: https://op.supes.top/
     img: https://openwrt.org/_media/favicon.ico
@@ -368,6 +372,10 @@ designTools:
     url: https://avatarmaker.com/
     img: https://avatarmaker.com/favicon.ico
     description: (Avatar) Create your own free avatar online and share it with your friends
+  - name: Bitmoji
+    url: https://www.bitmoji.com/
+    img: https://www.bitmoji.com/favicon/ef3022fd.favicon-32.cache.png
+    description: Create your Bitmoji and be yourself wherever you go
 
 iconLib:
   - name: iconfont
