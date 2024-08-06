@@ -99,22 +99,42 @@ menu:
   #   description: 
 
 ctrlPanel:
-  - name: Op Router
-    url: http://192.168.2.1
+  - name: OP Router
+    url: http://192.168.55.55
     img: https://openwrt.org/_media/favicon.ico
     description: (local)
-  - name: ASUS Router (AP)
-    url: http://192.168.2.100
+  - name: ASUS Router
+    url: http://192.168.55.1
     img: https://i.imgur.com/DLL6DwDt.png
     description: ASUS Router RT-AX56U V2 (local)
+  - name: ASUS Router
+    url: http://192.168.55.100
+    img: https://i.imgur.com/DLL6DwDt.png
+    description: ASUS Router (local)
+  - name: ASUS Router
+    url: http://www.asusrouter.com/
+    img: https://i.imgur.com/DLL6DwDt.png
+    description: ASUS Router
   - name: CG-NAS
-    url: https://192.168.2.200:5001/
+    url: https://192.168.55.88:5001/
     img: https://i.imgur.com/TlIcFVXt.png
     description: (local)
   - name: CG-NAS
     url: https://nas.cgabc.xyz:5001/
     img: https://i.imgur.com/TlIcFVXt.png
     description: 
+  - name: CG-Alist (FTP)
+    url: http://192.168.55.88:5244
+    img: https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg
+    description: (local)
+  - name: Calibre-Web
+    url: http://192.168.55.88:8083
+    img: https://calibre-ebook.com/favicon.png
+    description: (local)
+  - name: Plex Media Server
+    url: http://192.168.55.88:32400
+    img: https://app.plex.tv/auth/favicon.ico
+    description: (local)
   - name: 阿里云控制台
     url: https://home.console.aliyun.com/
     img: https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico
@@ -127,20 +147,12 @@ ctrlPanel:
     url: https://kiwivm.64clouds.com/main.php
     img: 
     description: (搬瓦工VPS)
-  - name: CG-Alist (FTP)
-    url: http://192.168.2.200:5244
-    img: https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg
-    description: (local)
-  - name: Calibre-Web
-    url: http://192.168.2.200:8083
-    img: https://calibre-ebook.com/favicon.png
-    description: (local)
-  - name: Plex Media Server
-    url: http://192.168.2.200:32400
-    img: https://app.plex.tv/auth/favicon.ico
-    description: (local)
 
 IPDNS:
+  - name: IPv6 Test
+    url: https://www.test-ipv6.com/
+    img:
+    description: Test your IPv6 connectivity.
   - name: whoer
     url: https://whoer.net/
     img: https://whoer.net/favicon.png
