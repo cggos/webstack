@@ -103,36 +103,48 @@ ctrlPanel:
     url: http://192.168.55.55
     img: https://openwrt.org/_media/favicon.ico
     description: (local)
-  - name: ASUS Router
+  - name: Router
+    url: http://192.168.55.66
+    img: https://openwrt.org/_media/favicon.ico
+    description: (local)
+  - name: Router (main)
     url: http://192.168.55.1
     img: https://i.imgur.com/DLL6DwDt.png
-    description: ASUS Router RT-AX56U V2 (local)
-  - name: ASUS Router
-    url: http://192.168.55.100
+    description: (local)
+  - name: Router
+    url: http://192.168.55.77
     img: https://i.imgur.com/DLL6DwDt.png
-    description: ASUS Router (local)
-  - name: ASUS Router
-    url: http://www.asusrouter.com/
-    img: https://i.imgur.com/DLL6DwDt.png
-    description: ASUS Router
+    description: (local)
   - name: CG-NAS
     url: https://192.168.55.88:5001/
+    img: https://i.imgur.com/TlIcFVXt.png
+    description: (local)
+  - name: CG-NAS
+    url: https://cgnas.local/
     img: https://i.imgur.com/TlIcFVXt.png
     description: (local)
   - name: CG-NAS
     url: https://nas.cgabc.xyz:5001/
     img: https://i.imgur.com/TlIcFVXt.png
     description: 
+  - name: ASUS Router
+    url: http://www.asusrouter.com/
+    img: https://i.imgur.com/DLL6DwDt.png
+    description: ASUS Router
+  - name: KiwiVM Main Panel
+    url: https://kiwivm.64clouds.com/main.php
+    img: 
+    description: (搬瓦工VPS)
   - name: CG-Alist (FTP)
-    url: http://192.168.55.88:5244
+    url: http://cgnas.local:5244
     img: https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg
     description: (local)
   - name: Calibre-Web
-    url: http://192.168.55.88:8083
+    url: http://cgnas.local:8083
     img: https://calibre-ebook.com/favicon.png
     description: (local)
   - name: Plex Media Server
-    url: http://192.168.55.88:32400
+    url: http://cgnas.local:32400
     img: https://app.plex.tv/auth/favicon.ico
     description: (local)
   - name: 阿里云控制台
@@ -143,10 +155,6 @@ ctrlPanel:
     url: https://cp.aliyun.com/
     img: https://cp.aliyun.com/favicon.ico
     description: (阿里云)
-  - name: KiwiVM Main Panel
-    url: https://kiwivm.64clouds.com/main.php
-    img: 
-    description: (搬瓦工VPS)
 
 IPDNS:
   - name: IPv6 Test
