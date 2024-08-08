@@ -103,18 +103,18 @@ ctrlPanel:
     url: http://192.168.55.55
     img: https://openwrt.org/_media/favicon.ico
     description: (local)
-  - name: Router
-    url: http://192.168.55.66
-    img: https://openwrt.org/_media/favicon.ico
-    description: (local)
-  - name: Router (main)
+  - name: Main Router
     url: http://192.168.55.1
     img: https://i.imgur.com/DLL6DwDt.png
     description: (local)
-  - name: Router
-    url: http://192.168.55.77
+  - name: ASUS Router
+    url: http://www.asusrouter.com/
     img: https://i.imgur.com/DLL6DwDt.png
-    description: (local)
+    description: ASUS Router
+  - name: KiwiVM Main Panel
+    url: https://kiwivm.64clouds.com/main.php
+    img: 
+    description: (搬瓦工VPS)
   - name: CG-NAS
     url: https://192.168.55.88:5001/
     img: https://i.imgur.com/TlIcFVXt.png
@@ -127,14 +127,6 @@ ctrlPanel:
     url: https://nas.cgabc.xyz:5001/
     img: https://i.imgur.com/TlIcFVXt.png
     description: 
-  - name: ASUS Router
-    url: http://www.asusrouter.com/
-    img: https://i.imgur.com/DLL6DwDt.png
-    description: ASUS Router
-  - name: KiwiVM Main Panel
-    url: https://kiwivm.64clouds.com/main.php
-    img: 
-    description: (搬瓦工VPS)
   - name: CG-Alist (FTP)
     url: http://cgnas.local:5244
     img: https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg
