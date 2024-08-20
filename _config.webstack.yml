@@ -483,6 +483,10 @@ streamMedia:
     url: https://www.sounf.com/
     img: https://www.sounf.com/favicon.ico
     description: Netflix全球资源搜索引擎
+  - name: MeshShop
+    url: https://metshop.cn/
+    img: https://metshop.cn/favicon.ico
+    description: 蜜糖商店MetShop
 
 navLinks:
   - name: 邓邓的任意门
