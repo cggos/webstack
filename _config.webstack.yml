@@ -37,6 +37,9 @@ menu:
   - name: 控制面板
     icon: fas fa-tools
     config: ctrlPanel
+  - name: 云服务器
+    icon: fas fa-tools
+    config: cloudServer
   - name: 网站建设 
     icon: fas fa-tools
     config: websiteTools
@@ -99,34 +102,30 @@ menu:
   #   description: 
 
 ctrlPanel:
-  - name: OP Router
-    url: http://192.168.55.55
-    img: https://openwrt.org/_media/favicon.ico
-    description: (local)
-  - name: Main Router
-    url: http://192.168.55.1
-    img: https://i.imgur.com/DLL6DwDt.png
-    description: (local)
   - name: ASUS Router
     url: http://www.asusrouter.com/
     img: https://i.imgur.com/DLL6DwDt.png
     description: ASUS Router
-  - name: KiwiVM Main Panel
-    url: https://kiwivm.64clouds.com/main.php
-    img: 
-    description: (搬瓦工VPS)
-  - name: CG-NAS
-    url: https://192.168.55.88:5001/
-    img: https://i.imgur.com/TlIcFVXt.png
+  - name: Main Router
+    url: http://192.168.55.1
+    img: https://i.imgur.com/DLL6DwDt.png
+    description: (local)
+  - name: OP Router
+    url: http://192.168.55.55
+    img: https://openwrt.org/_media/favicon.ico
     description: (local)
   - name: CG-NAS
-    url: https://cgnas.local/
+    url: https://192.168.55.88:5001/
     img: https://i.imgur.com/TlIcFVXt.png
     description: (local)
   - name: CG-NAS
     url: https://nas.cgabc.xyz:5001/
     img: https://i.imgur.com/TlIcFVXt.png
     description: 
+  - name: CG-NAS
+    url: https://cgnas.local/
+    img: https://i.imgur.com/TlIcFVXt.png
+    description: (local)
   - name: CG-Alist (FTP)
     url: http://cgnas.local:5244
     img: https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg
@@ -139,6 +138,12 @@ ctrlPanel:
     url: http://cgnas.local:32400
     img: https://app.plex.tv/auth/favicon.ico
     description: (local)
+
+cloudServer:
+  - name: KiwiVM Main Panel
+    url: https://kiwivm.64clouds.com/
+    img: https://kiwivm.64clouds.com/favicon64x64.png
+    description: (搬瓦工VPS)
   - name: 阿里云控制台
     url: https://home.console.aliyun.com/
     img: https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico
