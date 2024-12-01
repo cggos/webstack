@@ -114,16 +114,20 @@ ctrlPanel:
     url: http://192.168.55.55
     img: https://openwrt.org/_media/favicon.ico
     description: (local)
+  - name: TP-Link
+    url: https://smbcloud.tp-link.com.cn/
+    img: https://smbcloud.tp-link.com.cn/static/img/browsericon.ico
+    description: 
   - name: CG-NAS
-    url: https://192.168.55.88:5001/
-    img: https://i.imgur.com/TlIcFVXt.png
-    description: (local)
-  - name: CG-NAS
-    url: https://nas.cgabc.xyz:5001/
+    url: http://nas.cgabc.xyz:5000/
     img: https://i.imgur.com/TlIcFVXt.png
     description: 
   - name: CG-NAS
-    url: https://cgnas.local/
+    url: http://192.168.55.88:5000/
+    img: https://i.imgur.com/TlIcFVXt.png
+    description: (local)
+  - name: CG-NAS
+    url: http://cgnas.local/
     img: https://i.imgur.com/TlIcFVXt.png
     description: (local)
   - name: CG-Alist (FTP)
