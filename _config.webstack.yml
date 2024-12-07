@@ -102,45 +102,21 @@ menu:
   #   description: 
 
 ctrlPanel:
-  - name: ASUS Router
-    url: http://www.asusrouter.com/
-    img: https://i.imgur.com/DLL6DwDt.png
-    description: ASUS Router
-  - name: Main Router
-    url: http://192.168.55.1
-    img: https://i.imgur.com/DLL6DwDt.png
-    description: (local)
-  - name: OP Router
-    url: http://192.168.55.55
-    img: https://openwrt.org/_media/favicon.ico
-    description: (local)
   - name: TP-Link
     url: https://smbcloud.tp-link.com.cn/
     img: https://smbcloud.tp-link.com.cn/static/img/browsericon.ico
     description: 
-  - name: CG-NAS
-    url: http://nas.cgabc.xyz:5000/
-    img: https://i.imgur.com/TlIcFVXt.png
-    description: 
-  - name: CG-NAS
-    url: http://192.168.55.88:5000/
-    img: https://i.imgur.com/TlIcFVXt.png
+  - name: ASUS Router
+    url: http://www.asusrouter.com/
+    img: https://i.imgur.com/DLL6DwDt.png
+    description: ASUS Router
+  - name: OP Router
+    url: http://192.168.55.55
+    img: https://openwrt.org/_media/favicon.ico
     description: (local)
   - name: CG-NAS
     url: http://cgnas.local/
     img: https://i.imgur.com/TlIcFVXt.png
-    description: (local)
-  - name: CG-Alist (FTP)
-    url: http://cgnas.local:5244
-    img: https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg
-    description: (local)
-  - name: Calibre-Web
-    url: http://cgnas.local:8083
-    img: https://calibre-ebook.com/favicon.png
-    description: (local)
-  - name: Plex Media Server
-    url: http://cgnas.local:32400
-    img: https://app.plex.tv/auth/favicon.ico
     description: (local)
 
 cloudServer:
@@ -497,19 +473,11 @@ streamMedia:
     img: https://metshop.cn/favicon.ico
     description: 蜜糖商店MetShop
 
-navLinks:
-  - name: 邓邓的任意门
-    url: https://dh.xhhdd.cc/
-    img: https://dh.xhhdd.cc/favicon.ico
-    description: 
-  - name: 大黄蜂
-    url: https://maopai8.com/
-    img: https://maopai8.com/assets/images/favicon.png
-    description: 
-  - name: 学生必备工具导航
-    url: https://www.stulink.cn/
-    img: https://www.stulink.cn/favicon.ico
-    description: 
+# navLinks:
+#   - name: 学生必备工具导航
+#     url: https://www.stulink.cn/
+#     img: https://www.stulink.cn/favicon.ico
+#     description: 
 
 about:
   url: /about/
